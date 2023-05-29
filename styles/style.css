@@ -1,3 +1,40 @@
 input:focus {
    outline: none;
 }
+.sat-icons {
+   font-size: 50px;
+   margin-left: 152px;
+   margin-bottom: 16px;
+   margin-top: 28px;
+   color: #2b3035;
+}
+.card-txt {
+   font-size: 14px;
+   text-align: center;
+   margin-right: 40px;
+   color: #2b3035;
+}
+.card-headings {
+   text-align: center;
+   margin-bottom: 12px;
+   margin-right: 40px;
+   color: #2b3035;
+
+}
+.card-bx {
+   height: 260px;
+   width: 450px;
+}
+.card-bx:hover {
+   cursor: pointer;
+   background: #2b3035;
+}
+.card-bx:hover .card-headings{
+   color: #fafafa;
+}
+.card-bx:hover .card-txt{
+   color: #fafafa;
+}
+.card-bx:hover .sat-icons {
+   color: #fafafa;
+}
